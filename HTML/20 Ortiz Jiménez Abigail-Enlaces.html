@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>Enlaces en html</title>
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        
+        <style type="text/css">
+			@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+            *{
+                padding: 0;
+                margin: 0;
+				 box-sizing: border-box;
+
+             }
+             header,nav,main,footer{
+                width: 100%;
+                padding: 30px;
+                background-color: firebrick;
+                color: ghostwhite;
+                margin-right: auto;
+                margin-left: auto;
+				 box-sizing: border-box;
+				 font-family: Josefin Sans;
+                }
+			header,footer{
+				height: auto;
+				font-size: 28px;
+			}
+            header{
+                height: 100px;
+            }
+            nav{
+                height: auto;
+                background-color: darksalmon;
+            }
+            nav ul{
+               
+                 width: 100%;
+                 margin-left: auto;
+                 margin-right: auto;
+                 text-align: center;
+
+            }
+            nav ul li{
+                list-style-type: none;
+                width: auto;
+				min-width: 120px;
+                height: auto;
+                background-color: brown;
+                display: inline-block;
+                padding: 20px;
+				margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+text-align: center;
+				border-radius: 10px;
+
+            }
+            main{
+                height: auto; 
+                background-color: ghostwhite;
+                color: firebrick;
+            }
+            section{
+                width: 70%;
+                height: 200px;
+                background-color: darksalmon;
+                margin-bottom: 30px;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 30px;
+                overflow-y: auto;
+            }
+            header,footer{
+                text-align: center;
+            }
+            a{
+                 /*text-decoration: none;*/
+            }
+            a:link{
+                 color: firebrick;
+            }
+            a:visited{
+                  color:darkred;
+            }
+            a:active{
+                  color: orange;
+            }
+            /*pasa mouse encima del texto*/
+            a:hover{
+                  color:darkorange;
+            }
+            h2{
+                  margin-bottom: 30px;
+            }
+            p{
+                  color:antiquewhite;
+				text-align: justify;
+            }
+            /*Este bloque de codigo modifica los
+            estados de enlaces para el menu*/
+                   nav ul li a{
+                   color: firebrick;
+            }
+            nav ul li a:link, nav ul li a:visited{
+                   color: bisque;
+                   text-decoration: none;
+            }
+            nav ul li:hover{
+                   background-color: bisque;
+                   width: 12%;
+            }
+                   nav ul li:hover{
+                   color:firebrick;
+            }
+			#img_casa{
+			width:  15px;
+			list-style-type: none;
+			display: inline-block;
+			text-align: center;
+	
+		}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__flip">ENLACES EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+            <li><a href="../index.html" ><img id="img_casa" src="../imagenes/hogar.png"></a></li>
+             <li><a href="20%20Ortiz%20Jim%C3%A9nez%20Abigail-Formatos%20texto%20animacion.html" target=_blank>FORMATOS</a></li>
+                <li><a href="20%20Ortiz%20Jim%C3%A9nez%20Abigail-Listas.html" target=_blank>LISTAS</a></li>
+                <li><a href="20%20Ortiz%20Jim%C3%A9nez%20Abigail-Enlaces.html" target=_blank>ENLACES</a></li>
+                <li><a href="20%20Abigail%20Ortiz%20Jim%C3%A9nez-Tablas.html"target=_blank>TABLAS</a></li>
+                <li><a href="20%20Ortiz%20Jim%C3%A9nez%20Abigail-im%C3%A1genes.html" target=_blank>IMÁGENES</a></li>
+                <li><a href="20%20Abigail%20Ortiz%20Jim%C3%A9nez-%20Audios.html"target=_blank>AUDIO</a></li>
+                <li><a href="20%20Abigail%20Ortiz%20Jim%C3%A9nez%20-%20video.html"target=_blank>VIDEO</a></li>
+                <li><a href="20%20Ortiz%20Jim%C3%A9nez%20Abigail-Formularios.html" target=_blank>FORMULARIOS</a></li>
+        </ul>
+    
+     </nav>
+     <main>
+          <section>
+                  <h2>ENLACES EXTERNOS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros eros, porttitor at nisl gravida, accumsan efficitur odio.<a href="http://www.buap.mx">Benemérita Universidad Autónoma de Puebla</a> Cras auctor ligula quis convallis tempor. Proin dignissim, orci nec blandit congue, leo enim aliquet purus, id hendrerit nibh est eget ipsum. Vestibulum tincidunt lorem quis tellus sodales, ut efficitur odio convallis. <a href="http://www.udg.mx"target="_blank">Universidad de Guadalajara</a> Aliquam laoreet accumsan justo sed placerat. Etiam ornare hendrerit ante at mattis. Curabitur lorem enim, consequat nec viverra nec, hendrerit quis mauris. Cras scelerisque facilisis diam, vel sagittis felis. Aenean arcu magna, elementum eu neque ut, convallis semper lacus. Nunc est sapien, euismod eget sodales sed.</p>
+          </section>
+          <section>
+                 <h2>ENLACES INTERNOS</h2>
+                 <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Morbi eros eros,porttitor at nisl gravida, accumsan efficitur odio.<a
+                 href="file:///C:/Users/abigo/Downloads/ABBY%20HTML/20%20Ortiz%20Jim%C3%A9nez%20Abigail-Formatos%20texto.html">Práctica de HTML de
+                 Formatos de Texto</a> Moesgbi molestie feugiat erat, non mattis risus. Etiam tempus felis lectus, ac convallis sapien venenatis vel. Maecenas fringilla consequat condimentum. Duis consequat interdum pharetra. <a href="file:///C:/Users/abigo/Downloads/ABBY%20HTML/20%20Ortiz%20Jim%C3%A9nez%20Abigail-Listas.html" target="_blank">Práctica de HTML de
+                 Listas</a> Proinsdgv in ultricies tellus. Vivamus sempurus, tincidunt a malesuada sit amet, tincidunt acleo. Lorem ipsum dolor sit amet, consecteturadipiscing elitds. Etiam placerat ultricies elit, sedaccumsan justo faucibus a. Morbi sed consequat orci,id placerat odio.</p>
+          </section>
+           <section>
+                 <h2>ENLACES A ARCHIVO</h2>
+                 <p>Lorem ipsum dodvxlor sit amet, consectetur adipiscing elit. Sed ut mattis turpis, nectristique libero. <a href="20%20Ortiz%20Jim%C3%A9nez%20Abigail-Formatos%20texto.html.pdf" target="_blank">Código de Práctica de HTML de Formatos de Texto</a> Sed exvduismod varius tortor eu dictum. Sedvarius lorem in quam consectetur, ut aliquam lorem rhoncus. Suspendisse eget ex tellus. In sit amet eros
+                 vel purus porta sodales. Nulla ullamcorper a purus investibulum. Vivamus eget felis at purus tincidunt gravida id ac odio. Fusce efficitur lectus sed risus sollicitudin, non suscipit tortor luctus. Aliquam quis mattis felis, nec porttitor orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ut ullamcorper nisi. Aenean venenatis eu leo vitaeauctor. Maecenas.</p>
+           </section>
+        <section>
+                  <h2>ENLACE CON DESCARGA DE ARCHIVOS</h2>
+                 <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Fusce aliquet felis lobortis vestibulum tincidunt. Pellentesque habitantmorbi tristique senectus et netus et malesuada famesac turpis egestas. <a href="20%20Ortiz%20Jim%C3%A9nez%20Abigail-Formatos.png" download>Vista del Navegador Prácticas de Formato</a> Cras facilisis arcu consectetur dapibus iaculis. Morbi ultricies nibh sit amet neque pharetra, quis pellentesque ex finibus.Donec ac dui dui. Nunc odio augue, ultricies in tellus at, tincidunt sagittis tellus. Maecenas eleifend arcueget lacinia vestibulum. Suspendisse potenti. <a href="http://www.ebay.com">Ebay</a> Pellentesque sollicitudin mauris non quam malesuada aliquet. Donec vitae imperdiet lacus. Integer maximus nibh non efficitur commodo. Cras aliquam faucibus eros, avehicula felis.</p>
+        </section>
+           </main>
+               <footer>
+                 <h6>Elaborado por Abigail Ortiz Jiménez</h6>
+               </footer>
+          </body>
+</html>
